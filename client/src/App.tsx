@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
     <h1>
-      Gdg kolkata Website
+      Gdg Cloud kolkata Website
     </h1>
     </div>
   );
