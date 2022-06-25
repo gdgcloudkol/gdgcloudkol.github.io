@@ -6,12 +6,12 @@ import OurPartners from './Pages/OurPartners/OurPartners';
 function App() {
   return (
     <div className="App">
-    <h1>
+    {/* <h1>
       Gdg Cloud kolkata Website
-    </h1>
-    <div className="container">
+    </h1> */}
+    {/* <div className="container">
       <FeatureEvents />
-    </div>
+    </div> */}
     <div className="container">
       <OurPartners />
     </div>
