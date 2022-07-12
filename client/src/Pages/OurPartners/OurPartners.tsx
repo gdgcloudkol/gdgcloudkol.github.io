@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container } from '@mui/system'
 import { Box, Stack } from '@mui/material'
 import './OurPartners.css'
@@ -19,7 +18,7 @@ function OurPartners() {
       {/* </Stack> */}
       <Box className='partnerImg'>
         <img src={partnerImg} alt="image of our partners" />
-        <img className='dots' src={dots} alt="dots" />
+        {/* <img className='dots' src={dots} alt="dots" /> */}
       </Box>
       
     </Container>

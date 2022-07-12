@@ -9,13 +9,12 @@ function App() {
     {/* <h1>
       Gdg Cloud kolkata Website
     </h1> */}
-    {/* <div className="container">
+    <div className="container">
       <FeatureEvents />
-    </div> */}
+    </div>
     <div className="container">
       <OurPartners />
     </div>
-    
     </div>
   );
 }
