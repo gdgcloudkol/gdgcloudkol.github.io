@@ -1,0 +1,36 @@
+:root{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* line-height: 150%; */
+    color: #2F327D;
+    }
+    .heading span{
+        color: #F48C06
+    }
+.assistantImg{
+   height: 40%;
+   /* width: 20%; */
+   width: 100%;
+   padding-left: 20%;
+}
+.description{
+    margin-top: 3rem;
+}
+.email{
+    display: inline-flex;
+}
+.email p{
+    margin-left: 3px;
+    margin-top: 0;
+}
+.atherate{
+    width: 10%;
+    margin-right: 10px;
+
+} 
