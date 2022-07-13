@@ -4,7 +4,9 @@ import { Grid } from '@mui/material';
 import './FeatureEvent.css'
 import codingEvent from '../../img/codingevent.png';
 
+
 function FeatureEvents() {
+  
   return (
     <Container className='mainContainer'>
       <Container className='headerContainer'  sx={{mb: 5}} >
@@ -17,10 +19,10 @@ function FeatureEvents() {
       </Container>
       <Grid container justifyContent="center" alignItems="center">
         <Grid item m={2}>
-        <Card sx={{ maxWidth: 300}}>
+        <Card sx={{ maxWidth: 250, maxHeight: 300, borderRadius: '16px' }}>
           <CardMedia
             component="img"
-            height="140"
+            height="100"
             image={codingEvent}
             alt="green iguana"
           />
@@ -40,10 +42,10 @@ function FeatureEvents() {
         </Card>
         </Grid>
         <Grid item m={2}>
-        <Card sx={{ maxWidth: 300}}>
+        <Card sx={{ maxWidth: 250,maxHeight: 300, borderRadius: '16px' }}>
           <CardMedia
             component="img"
-            height="140"
+            height="100"
             image={codingEvent}
             alt="green iguana"
           />
@@ -63,10 +65,10 @@ function FeatureEvents() {
         </Card>
         </Grid>
         <Grid item m={2}>
-        <Card sx={{ maxWidth: 300}}>
+        <Card sx={{ maxWidth: 250,maxHeight: 300, borderRadius: '16px'}}>
           <CardMedia
             component="img"
-            height="140"
+            height="100"
             image={codingEvent}
             alt="green iguana"
           />
