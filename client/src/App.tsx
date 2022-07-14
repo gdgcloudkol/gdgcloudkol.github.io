@@ -1,5 +1,5 @@
-import React from 'react';
 import './App.css';
+import ContactUs from './Pages/ContactUs/ContactUs';
 import FeatureEvents from './Pages/FeatureEvents/FeatureEvents';
 import OurPartners from './Pages/OurPartners/OurPartners';
 import Coc from './Pages/CodOfConduct/Coc';
@@ -18,6 +18,9 @@ function App() {
       </div>
       <div className='container'>
         <Coc />
+      </div>
+      <div className="container">
+        <ContactUs />
       </div>
     </div>
   );
