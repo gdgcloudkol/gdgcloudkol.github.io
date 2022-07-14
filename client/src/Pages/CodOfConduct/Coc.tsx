@@ -33,8 +33,8 @@ function Coc() {
             </li>
           </ul>
           <h3 className='heading3'>
-            Why do we have an official Anti-Harassment policy for Developer
-            Student Clubs NSEC events?
+            Why do we have an official Anti-Harassment policy for GDG Kolkata
+            cloud Community events?
           </h3>
           <ul className='unlists'>
             <li>Gender</li>
@@ -51,6 +51,16 @@ function Coc() {
           <img src={COC} alt='COC' width={370} />
         </div>
       </div>
+      <p className='unlists'>
+        The above is not an exhaustive list -- we do not tolerate harassment of
+        event spanarticipants in any form.
+      </p>
+      <p className='para'>
+        Sexual language and imagery is not appropriate for any event venue,
+        including talks. Event participants violating these rules may be
+        expelled from the event, and event banned from future events at the
+        discretion of the event organizers/management.
+      </p>
       <div>
         <h3 className='heading3'>
           Harassment includes (but is not limited to):
@@ -70,17 +80,7 @@ function Coc() {
           <li>Harassing photography or recording</li>
           <li>Stalking</li>
         </ul>
-        <p className='unlists'>
-          The above is not an exhaustive list -- we do not tolerate harassment
-          of event spanarticipants in any form.
-        </p>
       </div>
-      <p className='para'>
-        Sexual language and imagery is not appropriate for any event venue,
-        including talks. Event participants violating these rules may be
-        expelled from the event, and event banned from future events at the
-        discretion of the event organizers/management.
-      </p>
     </Container>
   );
 }
