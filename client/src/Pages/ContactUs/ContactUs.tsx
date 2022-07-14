@@ -19,13 +19,17 @@ function ContactUs() {
                     Hi, I’m  GDG Kolkata cloud community support  executive.
                     If you have any query ,please mail me on the given email id.
                 </p>
-                <Container className="email">
-                    <img className="atherate" src={icon} alt="@ symbol" />
-                    <div>
+                <Box className="email">
+                    <Box >
+                        <img className="atherate" src={icon} alt="@ symbol" />
+                    </Box>
+                    <Box sx={{textAlign: 'left'}}>
+                     {/* <div> */}
                         <h4>Email</h4>
                         <p>gdgcloudkol@gmail.com</p>
-                    </div>
-                </Container>
+                     {/* </div> */}
+                    </Box>
+                </Box>
 
             </Grid>
             <Grid item sm={4}>

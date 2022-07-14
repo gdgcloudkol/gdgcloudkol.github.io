@@ -21,16 +21,18 @@
 }
 .description{
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: left;
 }
 .email{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
 }
-.email p{
+/* .email p{
     margin-left: 3px;
     margin-top: 0;
-}
+} */
 .atherate{
-    width: 10%;
-    margin-right: 10px;
-
-} 
+    width: 70%;
+    margin-right: 10px; 
+ } 
