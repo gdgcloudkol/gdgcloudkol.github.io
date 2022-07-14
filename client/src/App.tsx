@@ -1,6 +1,6 @@
 import './App.css';
 import AboutUs from './Pages/AboutUs/AboutUs';
-import ContactUs from './Pages/ContactUs/Contact
+import ContactUs from './Pages/ContactUs/ContactUs';
 import FeatureEvents from './Pages/FeatureEvents/FeatureEvents';
 import OurPartners from './Pages/OurPartners/OurPartners';
 import Coc from './Pages/CodOfConduct/Coc';
@@ -22,9 +22,9 @@ function App() {
       <div className='container'>
         <OurPartners />
       </div>
-      <div className="container">
+      {/* <div className="container">
         <OurTeam />
-      </div>
+      </div> */}
       <div className='container'>
         <AboutUs />  
       </div>
