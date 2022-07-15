@@ -9,9 +9,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Footer() {
   return (
-    <Container sx={{margin: 5, alignItems: 'center', textAlign: 'center'}}>
-    <Grid container justifyContent="center" sx={{margin: 5}}>
-        <Grid item md={3} sx={{textAlign: 'center'}}>
+    <Container sx={{ alignItems: 'center', textAlign: 'center', justifyContent: 'center'}}>
+    <Grid container alignItems='center' justifyContent="center">
+        <Grid item md={3} alignItems='center' justifyContent="center" sx={{textAlign: 'center'}}>
             <Stack direction='column' sx={{textAlign: 'left'}}>
                 <Typography variant='h6'>Community</Typography>
                 <Typography color='inherit'>Home</Typography>
@@ -20,7 +20,7 @@ function Footer() {
                 <Typography color='inherit'>Contact</Typography>
             </Stack>
         </Grid>
-        <Grid md={3} item sx={{textAlign: 'center'}}>
+        <Grid md={3} alignItems='center' justifyContent="center" item sx={{textAlign: 'center'}}>
             <Stack direction='column' sx={{textAlign: 'left'}}>
                 <Typography variant='h6' >AboutUs</Typography>
                 <Typography color='inherit'>Home</Typography>
@@ -40,8 +40,8 @@ function Footer() {
         </Grid>
     </Grid>
     <Divider />
-    <Grid container>
-        <Grid item md={4}>
+    <Grid container alignItems='center' justifyContent="center">
+        <Grid item md={3}>
             <Stack direction='row'>
                 <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
                     <img src={GdgIcon}></img>
@@ -51,7 +51,7 @@ function Footer() {
                 </Typography>
             </Stack>
         </Grid>
-        <Grid item md={4}>
+        <Grid item md={5}>
         <div>
             <Typography mt={1}>&copy; Gdg Cloud Kolkata 2022</Typography>
         </div>
