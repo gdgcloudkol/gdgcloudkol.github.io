@@ -11,37 +11,32 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 function Footer() {
     const matches = useMediaQuery('(max-width:650px)')
   return (
-    <Container sx={{ alignItems: 'center', textAlign: 'center', justifyContent: 'center',
+    <Container sx={{ textAlign: 'center', justifyContent: 'center',
                      marginTop: 10}}>
-    <Grid container alignItems='center' justifyContent="center" mb={2} ml={matches? 2 : 0}>
-        <Grid item md={3} xs={12} alignItems='center' justifyContent="center" sx={{textAlign: 'center'}}
+    <Grid container justifyContent="center" mb={2} ml={matches? 2 : 0}>
+        <Grid item md={4} xs={12} alignItems='center' justifyContent="center" sx={{textAlign: 'center'}}
          mb={matches? 2 : 0}>
             <Stack spacing={1} direction='column' sx={{textAlign: 'left'}}>
-                <Typography variant='h6'>Community</Typography>
-                <Typography color='inherit'>Home</Typography>
-                <Typography color='inherit'>Team</Typography>
-                <Typography color='inherit'>About</Typography>
-                <Typography color='inherit'>Contact</Typography>
+                <Typography variant='h6'>About</Typography>
+                <Typography color='inherit'>GDG Cloud Kolkata</Typography>
+                <Typography color='inherit'>Google Developer Groups</Typography>
+                <Typography color='inherit'>Women Techmakers</Typography>
+                <Typography color='inherit'>Google Developer Student Clubs</Typography>
             </Stack>
         </Grid>
-        <Grid item xs={12} md={3} alignItems='center' justifyContent="center"  sx={{textAlign: 'center'}}
+        <Grid item xs={12} md={4} alignItems='center' justifyContent="center"  sx={{textAlign: 'center'}}
           mb={matches? 2 : 0}>
             <Stack spacing={1} direction='column' sx={{textAlign: 'left'}}>
-                <Typography variant='h6' >AboutUs</Typography>
-                <Typography color='inherit'>Home</Typography>
-                <Typography color='inherit'>Team</Typography>
-                <Typography color='inherit'>About</Typography>
-                <Typography color='inherit'>Contact</Typography>
+                <Typography variant='h6' >Resources</Typography>
+                <Typography color='inherit'>Terms and Condition</Typography>
+                <Typography color='inherit'>Telegram Group</Typography>
             </Stack>
         </Grid>
         <Grid item alignItems='center' justifyContent="center" xs={12} md={3} sx={{textAlign: 'center'}}
            mb={matches? 2 : 0}>
             <Stack spacing={1} direction='column' sx={{textAlign: 'left'}}>
-                <Typography variant='h6' >Developer Console</Typography>
-                <Typography color='inherit'>Home</Typography>
-                <Typography color='inherit'>Team</Typography>
-                <Typography color='inherit'>About</Typography>
-                <Typography color='inherit'>Contact</Typography>
+                <Typography variant='h6' >Contact</Typography>
+                <Typography color='inherit'>gdgcloudkol@gmail.com</Typography>
             </Stack>
         </Grid>
     </Grid>
