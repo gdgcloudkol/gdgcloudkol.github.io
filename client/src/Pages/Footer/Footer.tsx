@@ -6,14 +6,17 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function Footer() {
+    const matches = useMediaQuery('(max-width:650px)')
   return (
     <Container sx={{ alignItems: 'center', textAlign: 'center', justifyContent: 'center',
                      marginTop: 10}}>
-    <Grid container alignItems='center' justifyContent="center" mb={2}>
-        <Grid item md={3} xs={12} alignItems='center' justifyContent="center" sx={{textAlign: 'center'}}>
-            <Stack direction='column' sx={{textAlign: 'left'}}>
+    <Grid container alignItems='center' justifyContent="center" mb={2} ml={matches? 2 : 0}>
+        <Grid item md={3} xs={12} alignItems='center' justifyContent="center" sx={{textAlign: 'center'}}
+         mb={matches? 2 : 0}>
+            <Stack spacing={1} direction='column' sx={{textAlign: 'left'}}>
                 <Typography variant='h6'>Community</Typography>
                 <Typography color='inherit'>Home</Typography>
                 <Typography color='inherit'>Team</Typography>
@@ -21,8 +24,9 @@ function Footer() {
                 <Typography color='inherit'>Contact</Typography>
             </Stack>
         </Grid>
-        <Grid xs={12} md={3} alignItems='center' justifyContent="center" item sx={{textAlign: 'center'}}>
-            <Stack direction='column' sx={{textAlign: 'left'}}>
+        <Grid item xs={12} md={3} alignItems='center' justifyContent="center"  sx={{textAlign: 'center'}}
+          mb={matches? 2 : 0}>
+            <Stack spacing={1} direction='column' sx={{textAlign: 'left'}}>
                 <Typography variant='h6' >AboutUs</Typography>
                 <Typography color='inherit'>Home</Typography>
                 <Typography color='inherit'>Team</Typography>
@@ -30,8 +34,9 @@ function Footer() {
                 <Typography color='inherit'>Contact</Typography>
             </Stack>
         </Grid>
-        <Grid item alignItems='center' justifyContent="center" xs={12} md={3} sx={{textAlign: 'center'}}>
-            <Stack direction='column' sx={{textAlign: 'left'}}>
+        <Grid item alignItems='center' justifyContent="center" xs={12} md={3} sx={{textAlign: 'center'}}
+           mb={matches? 2 : 0}>
+            <Stack spacing={1} direction='column' sx={{textAlign: 'left'}}>
                 <Typography variant='h6' >Developer Console</Typography>
                 <Typography color='inherit'>Home</Typography>
                 <Typography color='inherit'>Team</Typography>
