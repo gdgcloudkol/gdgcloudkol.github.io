@@ -36,10 +36,11 @@ function App() {
       <div className="container">
         <Footer />
       </div> */}
-      {/* <HomePage /> */}
+      <HomePage />
       <FeatureEvents />
       <OurPartners />
       <ContactUs />
+      <Footer />
 
 
     </div>

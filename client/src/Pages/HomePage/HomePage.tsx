@@ -12,13 +12,14 @@ function HomePage() {
        <Navbar />
       </Container>
         <Grid container mt={8} spacing={2} sx={{justifyContent: 'center', alignItems: 'center'}}>
-          <Grid item md={5} component='div' >
-            <Box 
-             component='img'
+          <Grid xs={12} item md={5} component='div' >
+            <img 
+            //  component='img'
+            className='heroImage'
              src={heroImage}
             />
           </Grid>
-          <Grid item md={5} sx={{ alignItems: 'center'}}>
+          <Grid item xs={12} md={5} sx={{ alignItems: 'center'}}>
             <Typography variant='h3'>We will Help You to Grow your Skills and knowledge</Typography>
             <Typography mt={3}>
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -29,23 +30,23 @@ function HomePage() {
           
           </Grid>
         </Grid>
-        <Box sx={{justifyContent: 'center', alignItems: 'center'}} m={2}>
-          <Grid container className='heroContainer'>
-            <Grid item xs={6} mt={10}>
+        <Container sx={{marginTop: 4}} className='heroContainer'>
+          <Grid container >
+            <Grid item xs={12} md={6} mt={10}>
               <Typography variant='h3'> Make Stronger Cloud Community</Typography>
               <Typography mt={3}>
                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </Typography>
             </Grid>
-            <Grid item md={5} component='div'>
-            <Box 
-             component='img'
+            <Grid item xs={12} md={5} component='div'>
+            <img
+             className='heroImage'
              src={heroImage2}
             />
             </Grid>
           </Grid>
-        </Box> 
+        </Container> 
     </>
   )
 }
