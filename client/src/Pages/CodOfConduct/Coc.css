@@ -27,12 +27,19 @@
     display: flex;
     flex-direction: row;
 }
-.cocimg{
-    margin-top: 150px;
-    
+.cocimgContainer{
+    width: 50%;    
+}
+.cocImg{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 650px) {
+    .cocImg {
+      display: none
+    }
 }
 .heading2{
-      
     font-family: 'Nunito Sans';
     font-size: 32px;
     color: #000000;
