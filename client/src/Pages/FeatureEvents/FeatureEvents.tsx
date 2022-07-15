@@ -17,7 +17,7 @@ function FeatureEvents() {
         </p>
       </div>
       </Container>
-      <Grid container justifyContent="center" alignItems="center">
+      <Grid container spacing={6} justifyContent="center" alignItems="center">
         <Grid item m={2}>
         <Card sx={{ maxWidth: 250, maxHeight: 300, borderRadius: '16px' }}>
           <CardMedia

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='App'>
 
-      <div className="container">
+      {/* <div className="container">
         <HomePage />
       </div>
       <div className='container'>
@@ -21,11 +21,11 @@ function App() {
       <div className='container'>
         <OurPartners />
       </div>
-      {/* <div className="container">
+      <div className="container">
         <OurTeam />
-      </div> */}
+      </div>
       <div className='container'>
-        <AboutUs />  
+         
       </div>
       <div className='container'>
         <Coc />
@@ -35,7 +35,15 @@ function App() {
       </div>
       <div className="container">
         <Footer />
-      </div>
+      </div> */}
+      <HomePage />
+      <FeatureEvents />
+      <OurPartners />
+      <AboutUs /> 
+      {/* <Coc /> */}
+      <ContactUs />
+      <Footer />
+
 
     </div>
   );

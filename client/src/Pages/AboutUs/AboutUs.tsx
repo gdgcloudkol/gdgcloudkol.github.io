@@ -11,7 +11,7 @@ function AboutUs() {
     <Container sx={{mt: 5}}>
         <h1 className='heading'>About<span> Us</span></h1>
         <Grid container className='headerContainer aboutContainer'  sx={{mb: 5}} >
-            <Grid item className="about" mr={5}>
+            <Grid item className="about" >
                 <p>A Developer Students Club is a Google recognized student body at a college which directly reports to Google for their activities and is supported by the tech giant. A DSC conducts workshops, seminars and other fun activities which help the students connect with Google.
                 </p>
             </Grid>
@@ -25,7 +25,7 @@ function AboutUs() {
             /> 
             </Grid>    
         </Grid>
-        <Grid container >
+        <Grid container justifyContent='center'>
             <Grid item md={4}>
             <Box sx={{alignItems: 'center', textAlign: 'center'}}>
                 <Box
@@ -44,6 +44,36 @@ function AboutUs() {
                     id="panel1a-header"
                     >
                     <Typography>Accordion 1</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+               </Accordion>
+               <Accordion>
+                    <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                    >
+                    <Typography>Accordion 2</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+               </Accordion>
+               <Accordion>
+                    <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                    >
+                    <Typography>Accordion 2</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                     <Typography>
