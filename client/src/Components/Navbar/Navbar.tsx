@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     // <React.Fragment>
-      <AppBar sx={{ background: "white", color: 'black' }}>
+      <AppBar elevation={0} sx={{ background: "white", color: 'black' }}>
         <Toolbar>
           <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
              <img src={GdgIcon}></img>
