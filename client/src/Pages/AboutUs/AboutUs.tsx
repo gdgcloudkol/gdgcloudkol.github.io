@@ -36,7 +36,7 @@ function AboutUs() {
                 <h1 className='comunityHeader'>Community <br></br> Guidelines</h1> 
             </Box>   
             </Grid>
-            <Grid item md={6} mt={5}>
+            <Grid item md={7} mt={5}>
                 <Accordion>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
@@ -44,6 +44,36 @@ function AboutUs() {
                     id="panel1a-header"
                     >
                     <Typography>Accordion 1</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+               </Accordion>
+               <Accordion>
+                    <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                    >
+                    <Typography>Accordion 2</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+               </Accordion>
+               <Accordion>
+                    <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                    >
+                    <Typography>Accordion 2</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                     <Typography>

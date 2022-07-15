@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import {
   AppBar,
   Button,
-  Tab,
-  Tabs,
   Toolbar,
   Typography,
   useMediaQuery,
@@ -21,7 +19,7 @@ const Navbar = () => {
   console.log(isMatch);
 
   return (
-    <React.Fragment>
+    // <React.Fragment>
       <AppBar sx={{ background: "white", color: 'black' }}>
         <Toolbar>
           <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
@@ -61,7 +59,7 @@ const Navbar = () => {
           )}
         </Toolbar>
       </AppBar>
-    </React.Fragment>
+    // </React.Fragment>
   );
 };
 
