@@ -8,13 +8,13 @@ import {
   ListItemText,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-const pages = ["Products", "Services", "ABoutUs", "ContactUs"];
+const pages = ["Home", "Team", "About", "Contact"];
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
   return (
     <React.Fragment>
-      <Drawer
+      <Drawer 
         anchor="left"
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}

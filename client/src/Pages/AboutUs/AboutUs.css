@@ -1,6 +1,6 @@
 .heading{
-    font-family: 'Poppins';
-    font-style: normal;
+    /* font-family: 'Poppins'; */
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     /* line-height: 150%; */
@@ -11,8 +11,8 @@
     align-items: left;
 }
 .about{
-font-family: 'Poppins';
-font-style: normal;
+/* font-family: 'Poppins'; */
+/* font-style: normal; */
 font-weight: 350;
 font-size: 20px;
 width: 65%;
@@ -32,8 +32,8 @@ color: #696984;
     /* position: absolute; */
 /* width: 287.83px;
 height: 47.33px; */
-font-family: 'Poppins';
-font-style: normal;
+/* font-family: 'Poppins'; */
+/* font-style: normal; */
 font-weight: 400;
 font-size: 30px;
 /* line-height: 45px; */
