@@ -6,13 +6,12 @@ import OurPartners from './Pages/OurPartners/OurPartners';
 import Coc from './Pages/CodOfConduct/Coc';
 import OurTeam from './Pages/OurTeam/OurTeam';
 import HomePage from './Pages/HomePage/HomePage';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
     <div className='App'>
-      {/* <h1>
-      Gdg Cloud kolkata Website
-    </h1> */}
+
       <div className="container">
         <HomePage />
       </div>
@@ -31,9 +30,11 @@ function App() {
       <div className='container'>
         <Coc />
       </div>
-      
       <div className="container">
         <ContactUs />
+      </div>
+      <div className="container">
+        <Footer />
       </div>
 
     </div>
