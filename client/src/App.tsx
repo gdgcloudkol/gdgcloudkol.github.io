@@ -27,9 +27,9 @@ function App() {
       <div className='container'>
         <AboutUs />  
       </div>
-      <div className='container'>
+      {/* <div className='container'>
         <Coc />
-      </div>
+      </div> */}
       <div className="container">
         <ContactUs />
       </div>

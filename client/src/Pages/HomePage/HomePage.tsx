@@ -1,7 +1,7 @@
 import { Container, Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../Components/Navbar/Navbar'
 import heroImage from '../../img/heroImage.png'
 import heroImage2 from '../../img/heroImage2.png'
 import './HomePage.css'
