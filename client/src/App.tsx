@@ -40,7 +40,7 @@ function App() {
       <FeatureEvents />
       <OurPartners />
       <AboutUs /> 
-      {/* <Coc /> */}
+      <Coc />
       <ContactUs />
       <Footer />
 

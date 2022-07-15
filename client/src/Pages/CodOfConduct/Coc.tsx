@@ -47,8 +47,9 @@ function Coc() {
             <li>Nationality</li>
           </ul>
         </div>
-        <div className='cocimg'>
-          <img src={COC} alt='COC' width={370} />
+        <div className='cocimgContainer' >
+          <img className='cocImg'
+           src={COC} alt='COC'/>
         </div>
       </div>
       <p className='unlists'>
