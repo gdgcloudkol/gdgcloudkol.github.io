@@ -31,7 +31,7 @@ function HomePage() {
           </Grid>
         </Grid>
         <Container sx={{marginTop: 4}} className='heroContainer'>
-          <Grid container >
+          <Grid container>
             <Grid item xs={12} md={6} mt={10}>
               <Typography variant='h3'> Make Stronger Cloud Community</Typography>
               <Typography mt={3}>

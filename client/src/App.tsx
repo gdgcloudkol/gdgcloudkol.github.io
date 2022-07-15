@@ -25,7 +25,7 @@ function App() {
         <OurTeam />
       </div>
       <div className='container'>
-        <AboutUs />  
+         
       </div>
       <div className='container'>
         <Coc />
@@ -39,6 +39,8 @@ function App() {
       <HomePage />
       <FeatureEvents />
       <OurPartners />
+      <AboutUs /> 
+      {/* <Coc /> */}
       <ContactUs />
       <Footer />
 

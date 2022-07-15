@@ -11,7 +11,7 @@ function AboutUs() {
     <Container sx={{mt: 5}}>
         <h1 className='heading'>About<span> Us</span></h1>
         <Grid container className='headerContainer aboutContainer'  sx={{mb: 5}} >
-            <Grid item className="about" mr={5}>
+            <Grid item className="about" >
                 <p>A Developer Students Club is a Google recognized student body at a college which directly reports to Google for their activities and is supported by the tech giant. A DSC conducts workshops, seminars and other fun activities which help the students connect with Google.
                 </p>
             </Grid>
@@ -25,7 +25,7 @@ function AboutUs() {
             /> 
             </Grid>    
         </Grid>
-        <Grid container >
+        <Grid container justifyContent='center'>
             <Grid item md={4}>
             <Box sx={{alignItems: 'center', textAlign: 'center'}}>
                 <Box
@@ -36,7 +36,7 @@ function AboutUs() {
                 <h1 className='comunityHeader'>Community <br></br> Guidelines</h1> 
             </Box>   
             </Grid>
-            <Grid item md={7} mt={5}>
+            <Grid item md={6} mt={5}>
                 <Accordion>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
