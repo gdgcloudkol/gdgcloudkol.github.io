@@ -10,7 +10,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 function Footer() {
-    const matches = useMediaQuery('(max-width:650px)')
+    const matches = useMediaQuery('(max-width: 650px)')
   return (
     <Container sx={{ textAlign: 'center', justifyContent: 'center',
                      marginTop: 10}}>
