@@ -6,9 +6,10 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  Link
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-const pages = ["Home", "Team", "About", "Contact"];
+const pages = ["Home" , "Contact"];
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
@@ -23,7 +24,13 @@ const DrawerComp = () => {
           {pages.map((page, index) => (
             <ListItemButton key={index}>
               <ListItemIcon>
-                <ListItemText>{page}</ListItemText>
+                <ListItemText>
+                  <Link href={`#${page}`}
+                    color="inherit" underline='hover'
+                    onClick={() => setOpenDrawer(!openDrawer)}>
+                  {page}
+                  </Link>
+                </ListItemText>
               </ListItemIcon>
             </ListItemButton>
           ))}

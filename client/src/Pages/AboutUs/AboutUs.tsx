@@ -12,7 +12,11 @@ function AboutUs() {
         <h1 className='heading'>About<span> Us</span></h1>
         <Grid container className='headerContainer aboutContainer'  sx={{mb: 5}} >
             <Grid item className="about" >
-                <p>A Developer Students Club is a Google recognized student body at a college which directly reports to Google for their activities and is supported by the tech giant. A DSC conducts workshops, seminars and other fun activities which help the students connect with Google.
+                <p>A Developer Students Club is a Google recognized student body at a
+                     college which directly reports to Google for their activities and
+                      is supported by the tech giant. A DSC conducts workshops, 
+                      seminars and other fun activities which help the students 
+                    connect with Google.
                 </p>
             </Grid>
             <Grid item>
