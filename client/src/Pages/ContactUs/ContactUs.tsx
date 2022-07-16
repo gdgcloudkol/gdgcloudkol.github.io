@@ -9,7 +9,7 @@ import './ContactUs.css'
 
 function ContactUs() {
   return (
-    <Container>
+    <Container id="Contact">
         <h1 className='heading'>Our<span> Contact</span></h1>
         <Grid container  justifyContent='center' spacing={10}>
             <Grid item sm={5}>

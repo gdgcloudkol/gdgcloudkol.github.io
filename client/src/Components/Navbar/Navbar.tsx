@@ -50,10 +50,10 @@ const Navbar = () => {
                 GDG Cloud Kolkata 
               </Typography>
               <Stack direction='row' spacing={2}>
-                <Button color='inherit'>Home</Button>
+                <Button color='inherit' href="#home">Home</Button>
                 {/* <Button color='inherit'>Team</Button> */}
                 {/* <Button color='inherit'>About</Button> */}
-                <Button color='inherit'>Contact</Button>
+                <Button color='inherit' href="#contact">Contact</Button>
               </Stack>
             </>
           )}

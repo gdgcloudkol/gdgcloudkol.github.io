@@ -6,7 +6,7 @@ import './HomePage.css'
 
 function HomePage() {
   return (
-    <>
+    <div id="Home">
       <Container sx={{justifyContent: 'center', alignItems: 'center'}}>
        <Navbar />
       </Container>
@@ -47,7 +47,7 @@ function HomePage() {
             </Grid>
           </Grid>
         </Container> 
-    </>
+    </div>
   )
 }
 
