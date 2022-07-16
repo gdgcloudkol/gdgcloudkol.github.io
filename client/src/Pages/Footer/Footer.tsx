@@ -86,10 +86,13 @@ function Footer() {
                 </Typography>
             </Stack>
         </Grid>
-        <Grid item md={5}>
-        <div>
-            <Typography mt={1}>&copy; Gdg Cloud Kolkata 2022</Typography>
-        </div>
+        <Grid item md={5} >
+        <Stack direction='row' alignItems='center' justifyContent="center">
+          <a href="https://opensource.org/licenses/MIT">
+            <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></img>
+          </a>
+             <Typography pb={0.75} pl={1}>Gdg Cloud Kolkata</Typography>
+        </Stack>
         </Grid>
         <Grid item >
             <Stack mt={1} direction='row' spacing={2} sx={{textAlign: 'center'}}>

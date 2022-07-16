@@ -1,5 +1,4 @@
 import { Button, Container, Grid, Typography } from '@mui/material'
-import { Box } from '@mui/system'
 import Navbar from '../../Components/Navbar/Navbar'
 import heroImage from '../../img/heroImage.png'
 import heroImage2 from '../../img/heroImage2.png'
