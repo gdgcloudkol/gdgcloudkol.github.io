@@ -35,7 +35,7 @@ function FeatureEvents() {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
+            {/* <Button size="small">Share</Button> */}
             <Button href='https://gdg.community.dev/events/details/google-gdg-cloud-kolkata-presents-android-study-jams-kick-off/' 
                     size="small">Learn More</Button>
           </CardActions>

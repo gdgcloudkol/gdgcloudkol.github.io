@@ -17,8 +17,6 @@ function ContactUs() {
                 <p className='description'>
                     Hi, I’m  GDG Kolkata cloud community support  executive.
                     If you have any query ,please mail me on the given email id.
-                    Hi, I’m  GDG Kolkata cloud community support  executive.
-                    If you have any query ,please mail me on the given email id.
                 </p>
                 <Stack direction='row' className="email">
                     <Box mt={4} >
