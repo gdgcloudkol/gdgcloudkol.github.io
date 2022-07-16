@@ -12,7 +12,7 @@ function Coc() {
       </Container>
       <div className='rowC'>
         <div className=''>
-          <h3 className='heading2'>AntiHarassment Policy</h3>
+          <h3 className='heading2'>Anti-Harassment Policy</h3>
           <h3 className='heading3'>
             Why do we have an official Anti-Harassment policy for Google
             Developer Group?
