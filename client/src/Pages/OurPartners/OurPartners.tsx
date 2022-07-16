@@ -10,11 +10,12 @@ function OurPartners() {
     <Container className='mainContainer'>
       <h1 className='heading'>Our<span> Partners</span></h1>
       {/* <Stack className='desc-container'> */}
-      <p className="desc">Lorem ipsum, dolor sit amet consectetur adipisicing 
-      elit. Vel laudantium, fugit pariatur quam totam perferendis hic asperiores 
-      sequi voluptas eaque officia aut, rerum recusandae!
+      <p className="desc">A very big thank you to all our partners for their continued partnership.
+        If you’re interested in being showcased throughout ,
+         contact <a href="mailto: gdgcloudkol@gmail.com"> gdgcloudkol@gmail.com</a> to discuss
+         sponsorship opportunities.
       </p>
-      <a href='#' className='links'><b>Explore Details</b></a>
+      {/* <a href='#' className='links'><b>Explore Details</b></a> */}
       {/* </Stack> */}
       <Box className='partnerImg'>
         <img src={partnerImg} alt="image of our partners" />
