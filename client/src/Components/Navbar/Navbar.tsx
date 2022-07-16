@@ -9,7 +9,7 @@ import {
   IconButton,
   Stack
 } from "@mui/material";
-import GdgIcon from '../../img/gdglogo.png';
+import GdgIcon from '../../img/logo.png';
 import DrawerComp from "./Drawer";
 const Navbar = () => {
   const [value, setValue] = useState();
@@ -22,7 +22,7 @@ const Navbar = () => {
     // <React.Fragment>
       <AppBar elevation={0} sx={{ background: "white", color: 'black' }}>
         <Toolbar>
-          <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
+          <IconButton size='small' edge='start' color='inherit' aria-label='logo'>
              <img src={GdgIcon}></img>
           </IconButton>
           {isMatch ? (
