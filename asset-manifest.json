@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/css/main.372cbba9.css",
-    "main.js": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/js/main.931871a0.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/assistant.png": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/media/assistant.cdaf988310e082dad9af.png",
-    "static/media/partnersImg.svg": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/media/partnersImg.dfe6ddb07d390565d0da1625220b4525.svg",
-    "static/media/codingevent.png": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/media/codingevent.b7d9842a05683bc3d5aa.png",
-    "static/media/COC.png": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/media/COC.8cde2c63ca6faa677f96.png",
-    "static/media/icon.svg": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/media/icon.a6623fd9592a288a8d60289e1145d8da.svg",
-    "index.html": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/index.html",
-    "main.372cbba9.css.map": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/css/main.372cbba9.css.map",
-    "main.931871a0.js.map": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/js/main.931871a0.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/gdgcloudkol/gdgcloudkol.github.io/tree/dev/client/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/static/css/main.eff86191.css",
+    "main.js": "/static/js/main.a741a630.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/assistant.png": "/static/media/assistant.cdaf988310e082dad9af.png",
+    "static/media/heroImage2.png": "/static/media/heroImage2.d011b0e48e3ad1ceed07.png",
+    "static/media/heroImage.png": "/static/media/heroImage.04b85ecd2d34fe7e5230.png",
+    "static/media/GoogleSans-Regular_0.ttf": "/static/media/GoogleSans-Regular_0.0d01ceaea2903216c4ee.ttf",
+    "static/media/COC.png": "/static/media/COC.8cde2c63ca6faa677f96.png",
+    "static/media/logo.png": "/static/media/logo.0cc55b8442b5f48f4199.png",
+    "static/media/icon.svg": "/static/media/icon.a6623fd9592a288a8d60289e1145d8da.svg",
+    "index.html": "/index.html",
+    "main.eff86191.css.map": "/static/css/main.eff86191.css.map",
+    "main.a741a630.js.map": "/static/js/main.a741a630.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.372cbba9.css",
-    "static/js/main.931871a0.js"
+    "static/css/main.eff86191.css",
+    "static/js/main.a741a630.js"
   ]
 }
