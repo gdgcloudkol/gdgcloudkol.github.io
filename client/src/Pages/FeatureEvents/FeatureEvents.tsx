@@ -3,29 +3,53 @@ import { Card, CardMedia, CardContent, CardActions, Typography, Button } from '@
 import { Grid } from '@mui/material';
 import './FeatureEvent.css'
 import codingEvent from '../../img/studyJam.jpg';
+import ccd from '../../img/CCD_2022_Banner.jpg';
 
 
 function FeatureEvents() {
   
   return (
     <Container className='mainContainer'>
-      <Container className='headerContainer'  sx={{mb: 5}} >
+      <Container className='headerContainer'  sx={{mb: 2}} >
       <h1 className='heading'>Our<span> Featured Events</span></h1>
       {/* <div className="desc">
         <p>Events are listed in reverse chronological order by date.
         </p>
       </div> */}
       </Container>
-      <Grid container spacing={6} justifyContent="center" alignItems="center">
-        <Grid item m={2}>
-        <Card sx={{ maxWidth: 250, maxHeight: 'auto', borderRadius: '16px' }}>
+      <Grid container spacing={6} justifyContent="center" alignItems="center" mt={1}>
+      <Grid item m={3}>
+        <Card sx={{ maxWidth: 250, maxHeight: 330, borderRadius: '16px' }}>
+          <CardMedia
+            component="img"
+            height="100"
+            image={ccd}
+            alt="green iguana"
+          />
+          <CardContent sx={{height: 150}}>
+            <Typography gutterBottom variant="h5" component="div">
+              Cloud Community days 2022
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            A community organized cloud conference with industry experts presenting on exciting topics!
+            </Typography>
+          </CardContent>
+          <CardActions sx={{justifyContent: 'center'}}>
+            {/* <Button size="small">Share</Button> */}
+            <Button href='https://gdgcloud.kolkata.dev/ccd2022' 
+                    size="small">Learn More</Button>
+          </CardActions>
+        </Card>
+        </Grid>
+        <Grid item m={3}>
+        <Card sx={{ maxWidth: 250, maxHeight: 330, borderRadius: '16px' }}>
           <CardMedia
             component="img"
             height="100"
             image={codingEvent}
             alt="green iguana"
           />
-          <CardContent>
+          <CardContent sx={{height: 150}}>
             <Typography gutterBottom variant="h5" component="div">
               Android Study Jam
             </Typography>
@@ -34,7 +58,7 @@ function FeatureEvents() {
              using the curriculum provided by Google.
             </Typography>
           </CardContent>
-          <CardActions>
+          <CardActions sx={{justifyContent: 'center'}}>
             {/* <Button size="small">Share</Button> */}
             <Button href='https://gdg.community.dev/events/details/google-gdg-cloud-kolkata-presents-android-study-jams-kick-off/' 
                     size="small">Learn More</Button>
