@@ -10,14 +10,14 @@ function FeatureEvents() {
   
   return (
     <Container className='mainContainer'>
-      <Container className='headerContainer'  sx={{mb: 1}} >
+      <Container className='headerContainer'  sx={{mb: 4}} >
       <h1 className='heading'>Our<span> Featured Events</span></h1>
       {/* <div className="desc">
         <p>Events are listed in reverse chronological order by date.
         </p>
       </div> */}
       </Container>
-      <Grid container spacing={6} justifyContent="center" alignItems="center" mt={0}>
+      <Grid container spacing={6} justifyContent="center" alignItems="center">
       <Grid item m={2}>
         <Card sx={{ maxWidth: 250, maxHeight: 330, borderRadius: '16px' }}>
           <CardMedia
