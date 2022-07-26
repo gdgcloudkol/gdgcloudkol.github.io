@@ -3,22 +3,22 @@ import { Card, CardMedia, CardContent, CardActions, Typography, Button } from '@
 import { Grid } from '@mui/material';
 import './FeatureEvent.css'
 import codingEvent from '../../img/studyJam.jpg';
-import ccd from '../../img/CCD_2022_Banner.jpg';
+import ccd from '../../img/ccdBanner.jpg'
 
 
 function FeatureEvents() {
   
   return (
     <Container className='mainContainer'>
-      <Container className='headerContainer'  sx={{mb: 2}} >
+      <Container className='headerContainer'  sx={{mb: 1}} >
       <h1 className='heading'>Our<span> Featured Events</span></h1>
       {/* <div className="desc">
         <p>Events are listed in reverse chronological order by date.
         </p>
       </div> */}
       </Container>
-      <Grid container spacing={6} justifyContent="center" alignItems="center" mt={1}>
-      <Grid item m={3}>
+      <Grid container spacing={6} justifyContent="center" alignItems="center" mt={0}>
+      <Grid item m={2}>
         <Card sx={{ maxWidth: 250, maxHeight: 330, borderRadius: '16px' }}>
           <CardMedia
             component="img"
@@ -41,7 +41,7 @@ function FeatureEvents() {
           </CardActions>
         </Card>
         </Grid>
-        <Grid item m={3}>
+        <Grid item m={2}>
         <Card sx={{ maxWidth: 250, maxHeight: 330, borderRadius: '16px' }}>
           <CardMedia
             component="img"
