@@ -1,6 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Google Sans';
-  src: local('Google Sans'), url(./fonts/GoogleSans-Regular_0.ttf) format('truetype');
+  src: local('Google Sans'), url(./assets/fonts/GoogleSans-Regular_0.ttf) format('truetype');
 }
 
 body {

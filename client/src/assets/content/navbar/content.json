@@ -1,0 +1,40 @@
+{
+    "navbarPermanent":[
+        {
+            "title":"Home",
+            "link":"/home"
+        },
+        {
+            "title":"About",
+            "link":"/about"
+        },
+        {
+            "title":"Contact",
+            "link":"/contact"
+        },
+        {
+            "title":"Events",
+            "link":"/events"
+        },
+        {
+            "title":"Team",
+            "link":"/tesm"
+        },
+        {
+            "title":"Register",
+            "link":"/register"
+        }
+    ],
+    "navbarSpatialLoggedIn": [
+        {
+          "title": "Profile",
+          "link": "/profile"
+        }
+      ],
+      "navbarSpatialNotLoggedIn": [
+        {
+          "title": "Login",
+          "link": "/login"
+        }
+      ]
+}
