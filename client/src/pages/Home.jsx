@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import About from "../components/About";
+import Follow from "../components/Follow";
 
 const Home = () => {
   return (
@@ -8,7 +10,6 @@ const Home = () => {
       <div className="">
         <div className="mx-auto max-w-7xl px-6 py-2 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-10">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-            <div className="flex"></div>
             <h1 className="mt-10 max-w-lg text-lg font-bold text-gray-900 sm:text-4xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               eu.
@@ -22,10 +23,10 @@ const Home = () => {
               mattis ac luctus.
             </p>
             <div className="text-2xl flex flex-row gap-3 mt-2">
-              <FaFacebook />
-              <FaTwitter />
-              <FaLinkedin />
-              <MdEmail />
+              <FaFacebook className="cursor-pointer" />
+              <FaTwitter className="cursor-pointer" />
+              <FaLinkedin className="cursor-pointer" />
+              <MdEmail className="cursor-pointer" />
             </div>
             <div className="mt-6 flex items-center gap-x-6">
               <a
@@ -55,6 +56,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <About />
+      <Follow />
+      
     </div>
   );
 };
