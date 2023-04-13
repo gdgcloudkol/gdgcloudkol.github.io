@@ -7,7 +7,6 @@ import Follow from "../components/Follow";
 const Home = () => {
   return (
     <div className="bg-white">
-      <div className="">
         <div className="mx-auto max-w-7xl px-6 py-2 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-10">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <h1 className="mt-10 max-w-lg text-lg font-bold text-gray-900 sm:text-4xl">
@@ -55,7 +54,6 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
       <About />
       <Follow />
       
