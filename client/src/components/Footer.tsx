@@ -1,12 +1,3 @@
-import React from "react";
-import {
-  SiLinkedin,
-  SiGithub,
-  SiTwitter,
-  SiFacebook,
-  SiInstagram,
-} from "react-icons/si";
-
 const Footer = () => {
   return (
     <footer className=" bg-black ">
@@ -58,10 +49,14 @@ const Footer = () => {
             </h2>
             <ul className="text-gray-300">
               <li className="mb-2">
-                <a className="hover:underline disabled">Become a Sponsor</a>
+                <a href="#!" className="hover:underline disabled">
+                  Become a Sponsor
+                </a>
               </li>
               <li>
-                <a className="hover:underline">Call for Speakers</a>
+                <a href="#!" className="hover:underline">
+                  Call for Speakers
+                </a>
               </li>
             </ul>
           </div>
@@ -71,12 +66,12 @@ const Footer = () => {
             </h2>
             <ul className="text-gray-300">
               <li className="mb-2">
-                <a href="#" className="hover:underline">
+                <a href="#!" className="hover:underline">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#!" className="hover:underline">
                   Terms &amp; Conditions
                 </a>
               </li>

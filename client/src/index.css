@@ -5,11 +5,18 @@
 
 @font-face {
   font-family: 'Google Sans';
-  src: local('Google Sans'), url(./assets/fonts/GoogleSans-Regular_0.ttf) format('truetype');
+  src: local('Google Sans'),
+    url(./assets/fonts/GoogleSans-Regular_0.ttf) format('truetype');
 }
 
-body {
-  font-family: 'Google Sans';
+@layer base {
+  html {
+    @apply scroll-smooth;
+    scroll-padding-top: 4rem;
+  }
+  body {
+    font-family: 'Google Sans';
+  }
 }
 
 .stroke-b-1px {
@@ -32,5 +39,5 @@ body {
     2px 2px 0 #fff;
 }
 .bg-gray-100 {
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
 }

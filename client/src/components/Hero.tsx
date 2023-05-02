@@ -31,7 +31,7 @@ const SocialLink = ({
 
 export default function Hero() {
   return (
-    <section className="md:px-14 lg:px-20 px-2">
+    <section className="md:px-14 lg:px-20 px-2" id="home">
       <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen place-items-center md:gap-x-10 lg:gap-x-20">
         <div className="flex flex-col justify-center items-center md:items-start max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
           <h1 className="tracking-tight text-gray-900 sm:text-4xl lg:text-5xl xl:text-6xl text-3xl">
