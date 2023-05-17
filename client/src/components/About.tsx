@@ -11,12 +11,7 @@ const About = () => {
             <span className="no-shadow text-black font-medium">&nbsp;Us</span>
           </h2>
           <p className="text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-            efficitur quam, et mattis ligula. Duis et quam venenatis mi
-            porttitor iaculis eu eget justo. Nunc sed nisi vulputate, iaculis
-            ipsum a, accumsan tortor. Nullam turpis ex, malesuada congue lectus
-            posuere, pharetra commodo massa. Praesent neque nisi, mattis ac
-            luctus.
+            GDG Cloud Kolkata is a community-driven group based in Kolkata, India, that focuses on cloud computing technologies, particularly Google Cloud Platform (GCP). GDG stands for Google Developer Group, and it is an independent group of developers, enthusiasts, and technologists who come together to share knowledge, collaborate, and learn about various Google technologies.
           </p>
         </div>
       </div>
@@ -28,39 +23,38 @@ const About = () => {
                 <h3 className="text-4xl font-bold mb-4 stroke-b-1px lg:stroke-b-2px text-white flex flex-row flex-wrap">
                   Who are <span className="text-black">&nbsp;we?</span>
                 </h3>
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus aliquam leo sit amet semper lacinia. Ut non quam sed
-                  tortor eleifend consectetur sed nec dolor.
+                <p className="text-gray-700 text-justify">
+                  The primary objective of GDG Cloud Kolkata is to foster a local ecosystem of cloud enthusiasts and developers who are interested in leveraging the power of Google Cloud Platform for their projects, businesses, or personal learning. The community provides a platform for individuals to connect, exchange ideas, and stay updated on the latest advancements in cloud computing.
                 </p>
               </div>
             </div>
             <div className="px-4 mb-8">
               <div className=" rounded-lg p-6">
-                <h2 className="text-4xl font-bold mb-4">Connect</h2>
-                <p className="text-gray-700">
-                  Fusce nec odio in sapien venenatis eleifend. Donec euismod
-                  ullamcorper felis a rutrum. Aliquam vel ultricies turpis.
+                <h3 className="text-4xl font-bold mb-4 stroke-b-1px lg:stroke-b-2px text-white flex flex-row flex-wrap">
+                  What we <span className="text-black">&nbsp;do?</span>
+                </h3>
+                <p className="text-gray-700 text-justify">
+                  GDG Cloud Kolkata organizes a variety of events, including meetups, workshops, webinars, hackathons, and conferences. These events feature talks and sessions delivered by industry experts, Google Developer Experts (GDEs), and community members who share their experiences, best practices, and insights into using Google Cloud technologies effectively.
+                </p>
+              </div>
+            </div>
+            <div className="px-4 mb-8">
+              <div className="rounded-lg p-6">
+                <h3 className="text-4xl font-bold mb-4 stroke-b-1px lg:stroke-b-2px text-white flex flex-row flex-wrap">
+                  Join <span className="text-black">&nbsp;us?</span>
+                </h3>
+                <p className="text-gray-700 text-justify">
+                  The community welcomes individuals from different backgrounds, including developers, data scientists, system administrators, business professionals, and students who have an interest in cloud computing. Members can engage in networking, collaborative learning, and skill development within the context of Google Cloud Platform and related technologies.
                 </p>
               </div>
             </div>
             <div className="px-4 mb-8">
               <div className=" rounded-lg p-6">
-                <h2 className="text-4xl font-bold mb-4">Learn</h2>
-                <p className="text-gray-700">
-                  Vestibulum ultricies lobortis libero, eget bibendum massa.
-                  Proin at faucibus ligula, nec sollicitudin augue. Pellentesque
-                  vel pharetra odio.
-                </p>
-              </div>
-            </div>
-            <div className="px-4 mb-8">
-              <div className=" rounded-lg p-6">
-                <h2 className="text-4xl font-bold mb-4">Growth</h2>
-                <p className="text-gray-700">
-                  Quisque eget massa in sapien feugiat mattis eget eu odio.
-                  Aenean non odio et leo feugiat imperdiet eu vel turpis. Etiam
-                  vestibulum dolor et diam hendrerit.
+                <h3 className="text-4xl font-bold mb-4 stroke-b-1px lg:stroke-b-2px text-white flex flex-row flex-wrap">
+                  Know <span className="text-black">&nbsp;more?</span>
+                </h3>
+                <p className="text-gray-700 text-justify">
+                  If you're interested in participating or learning more about GDG Cloud Kolkata, you can check our official website, social media channels, or connect with fellow cloud enthusiasts in the Kolkata area who are part of the community.
                 </p>
               </div>
             </div>
@@ -72,6 +66,77 @@ const About = () => {
             href="#!"
             className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
           >
+            GCP
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Kubernetes
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            App Engine
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Cloud Funtions
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Big Query
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Cloud Storage
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Dataflow
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Tensor Flow
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            IAM
+          </a>
+          <a
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
+            Cloud Security
+          </a>
+          <a
+          
+            type="button"
+            href="#!"
+            className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
+          >
             Web
           </a>
           <a
@@ -79,14 +144,14 @@ const About = () => {
             href="#!"
             className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
           >
-            Firebase
+            Mobile
           </a>
           <a
             type="button"
             href="#!"
             className=" border-2 border-[#596272] rounded-full px-6 lg:px-8 py-2 text-gray-700 text-sm font-medium hover:text-gray-900"
           >
-            Cloud
+            Firebase
           </a>
         </div>
       </div>

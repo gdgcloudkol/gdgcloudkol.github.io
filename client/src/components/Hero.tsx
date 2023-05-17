@@ -1,4 +1,4 @@
-import { FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import content from '../assets/content/hero.json';
 
@@ -7,6 +7,7 @@ const ICON_MAP = {
   twitter: FaTwitter,
   linkedin: FaLinkedin,
   email: MdEmail,
+  instagram: FaInstagram
 };
 
 const SocialLink = ({
@@ -52,16 +53,16 @@ export default function Hero() {
           </div>
           <div className="mt-8 flex items-center gap-x-6">
             <a
-              href="/"
+              href={content.primary_cta.url}
               className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
             >
               {content.primary_cta.text}
             </a>
             <a
-              href="/"
+              href={content.secondary_cta.url}
               className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md border-gray-300 text-gray-700 bg-white hover:bg-gray-50"
             >
-              Learn more
+              {content.secondary_cta.text}
             </a>
           </div>
         </div>

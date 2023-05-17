@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <About />
       <div className="w-full">
-        <Event name="Our Community" />
+        <Event name="Our Upcoming" />
         <Event bg="black" name="Our Past" />
       </div>
       <Event name="Our" />

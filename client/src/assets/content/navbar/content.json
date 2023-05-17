@@ -9,12 +9,12 @@
       "link": "#about"
     },
     {
-      "title": "Contact",
-      "link": "#contact"
-    },
-    {
       "title": "Events",
       "link": "#events"
+    },
+    {
+      "title": "Contact",
+      "link": "#contact"
     }
   ]
 }
