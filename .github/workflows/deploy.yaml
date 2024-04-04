@@ -23,7 +23,6 @@ jobs:
         run: |
           yarn install
           npm run build
-          npm run export
           touch out/.nojekyll
 
       - name: Deploy
